@@ -98,7 +98,7 @@ export default {
   },
   methods: {
     addToCart () {
-      let formOutput = {
+      const formOutput = {
         item: this.currentItem.item,
         count: this.count,
         options: this.currentItem.options,
@@ -107,6 +107,7 @@ export default {
       }
 
       this.cartSubmitted = true
+      this.$store.commit('addToCart', formOutput)
     }
   }
 }

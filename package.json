@@ -11,7 +11,8 @@
   "dependencies": {
     "core-js": "^3.8.3",
     "hub": "^6.1.2",
-    "nuxt": "^2.14.12"
+    "nuxt": "^2.14.12",
+    "uuid": "^3.4.0"
   },
   "devDependencies": {
     "eslint": "^7.19.0",
